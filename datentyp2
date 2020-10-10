@@ -1,0 +1,10 @@
+void main() {
+ String meinName = "Zeynep";
+  print("Mein Name ist $meinName");
+  double zahl1 = 2.4;
+  String zahlenwert = zahl1.toString();
+  print(zahlenwert);
+ int zahl = meinName.length;
+  print("Zeynep hat $zahl Buchstaben");
+
+}

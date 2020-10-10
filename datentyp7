@@ -1,0 +1,19 @@
+void main() {
+  
+  Essen nudeln = Essen();
+  nudeln.geschmack =("lecker");
+  nudeln.menge = 2;
+  nudeln.zeigeEigenschaften();
+  
+}
+
+class Essen{
+  String geschmack;
+  int menge;
+  
+ void zeigeEigenschaften(){
+   print(this.geschmack);
+   print(this.menge);
+   
+ }
+}

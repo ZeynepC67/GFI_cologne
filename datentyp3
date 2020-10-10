@@ -1,0 +1,16 @@
+void main() {
+ int x = 5;
+  x--;
+  print(x);
+int v = 10;
+  v*= 132;
+  print(v);
+  
+int z = 12;
+  z = z + 3;
+  print(z);
+  
+ int h = 4;
+  
+  
+}
